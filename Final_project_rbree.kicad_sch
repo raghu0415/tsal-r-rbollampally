@@ -3795,12 +3795,6 @@
 		(uuid "1434e159-f4b1-4e41-a8b7-ccdd12c765f5")
 	)
 	(junction
-		(at 92.71 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18f6f8a1-b333-4818-8ee8-b38a5631b8f8")
-	)
-	(junction
 		(at 224.79 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3849,6 +3843,12 @@
 		(uuid "529585dd-83b2-4269-9633-b739dd847e71")
 	)
 	(junction
+		(at 92.71 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53aea76f-e098-47bb-a864-70152881ee91")
+	)
+	(junction
 		(at 212.09 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3859,6 +3859,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c4b51de-c0be-4341-ac10-b7ebf6043ff6")
+	)
+	(junction
+		(at 127 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61787684-f050-45b0-bc90-10d394104738")
 	)
 	(junction
 		(at 358.14 106.68)
@@ -4340,6 +4346,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 179.07) (xy 127 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4536066f-43a8-4ccd-bfce-47ebef643668")
+	)
+	(wire
+		(pts
 			(xy 212.09 128.27) (xy 212.09 129.54)
 		)
 		(stroke
@@ -4387,16 +4403,6 @@
 			(type default)
 		)
 		(uuid "4c5a7974-6f10-463a-90bd-97f72422a2af")
-	)
-	(wire
-		(pts
-			(xy 92.71 179.07) (xy 127 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4da144bf-54a5-482b-ace2-da42f003d501")
 	)
 	(polyline
 		(pts
@@ -4577,6 +4583,16 @@
 			(type default)
 		)
 		(uuid "6375fb0c-eb06-497e-abe6-4efbb24962ec")
+	)
+	(wire
+		(pts
+			(xy 120.65 179.07) (xy 127 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e13b15-8c9c-4e65-aec0-be6350de8d56")
 	)
 	(wire
 		(pts
@@ -4957,6 +4973,16 @@
 			(type default)
 		)
 		(uuid "a43c5905-deef-4cbf-a2c2-62e21b152dbd")
+	)
+	(wire
+		(pts
+			(xy 92.71 179.07) (xy 113.03 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a6f2cd-2491-45f4-8a22-2e205f707739")
 	)
 	(wire
 		(pts
@@ -5420,6 +5446,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 190.5) (xy 127 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f63f5941-7c19-4d2d-9b94-d5021192d920")
+	)
+	(wire
+		(pts
 			(xy 166.37 128.27) (xy 177.8 128.27)
 		)
 		(stroke
@@ -5672,6 +5708,17 @@
 		)
 		(uuid "5634d96c-f631-4994-a24d-06119a0a60b1")
 	)
+	(label "Vref"
+		(at 127 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "888f7634-0988-4994-90a7-a2830cde1e73")
+	)
 	(label "Vin"
 		(at 111.76 128.27 0)
 		(fields_autoplaced yes)
@@ -5684,19 +5731,6 @@
 			(justify left bottom)
 		)
 		(uuid "f1cc4893-171d-4926-a22d-0c122168f300")
-	)
-	(label "Vref"
-		(at 100.33 179.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6871e68-4671-4fdf-94ce-9fc6e533e5a8")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -8911,6 +8945,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 127 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a671981-6e3a-41ab-8d63-5c2a953e21e2")
+		(property "Reference" "R23"
+			(at 129.54 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 129.54 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 125.222 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77b151aa-be41-4e74-b4ae-4b627d48bc56")
+		)
+		(pin "1"
+			(uuid "eb8e777d-5021-4190-b472-661d95a632bd")
+		)
+		(instances
+			(project "Final_project_rbree"
+				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:MMBT3904")
 		(at 325.12 99.06 0)
 		(unit 1)
@@ -8981,6 +9085,73 @@
 			(project ""
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60dcf175-8bc7-4b37-8085-028c71f043d1")
+		(property "Reference" "R22"
+			(at 116.586 182.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 116.586 184.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 116.84 180.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e6e87c4-9d35-49e4-87a2-0f08cf7a8441")
+		)
+		(pin "2"
+			(uuid "a596e5a0-6687-4e19-8aec-9ef271c2cbc0")
+		)
+		(instances
+			(project "Final_project_rbree"
+				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -9145,6 +9316,71 @@
 			(project ""
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8eba7bc5-c838-4798-ab3e-dac6c6b2fd7f")
+		(property "Reference" "#PWR021"
+			(at 127 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127.127 210.1342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cf7ac74-c2d3-436e-a3f0-19f39622a4e9")
+		)
+		(instances
+			(project "Final_project_rbree"
+				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
